@@ -1,6 +1,9 @@
 {
   "name": "russfib",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.14.14"
+  },
   "description": "fibonacci generator",
   "main": "app.js",
   "scripts": {
