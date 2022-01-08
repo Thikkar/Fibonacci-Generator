@@ -6,7 +6,7 @@ var path = require('path');
 
 //const PORT = process.env.PORT || 5000;
 
-const { PORT=5000, LOCAL_ADDRESS='0.0.0.0' } = process.env
+const { PORT=3000, LOCAL_ADDRESS='0.0.0.0' } = process.env
 app.listen(PORT, LOCAL_ADDRESS, () => {
   console.log('Connected on port: ' + PORT);
 });
