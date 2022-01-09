@@ -3,7 +3,6 @@ body {
 }
 
 .background-image {
-  /*background-image: url("https://www.mccormick.northwestern.edu/images/research-and-faculty/directory/joseph-russ.jpg");*/
   background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/55/36/ZRI3wg.jpg");
 
   position: fixed;
@@ -165,6 +164,10 @@ button:active {
 
     .header #second-img {
         display: none;
+    }
+
+    h1 {
+        padding: 0;
     }
 
     .button-container {
